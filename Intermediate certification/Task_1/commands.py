@@ -42,7 +42,7 @@ def show_all():
         print(f'{"-" * 15}\nЗаметок еще нет\n{"-" * 15}')
 
 
-def search(data_list, search_data, choice):
+def search_note(data_list, search_data, choice):
     
     if choice == 1:
         data = list(filter(lambda x: x['id'] == search_data, data_list))
