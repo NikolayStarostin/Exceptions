@@ -1,5 +1,6 @@
 from file import save
 from commands import create_new_note, show_all, search_note, delete, edit
+import json
 
 
 def start_menu():
